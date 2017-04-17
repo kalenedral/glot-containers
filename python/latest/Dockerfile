@@ -15,9 +15,7 @@ RUN pip install \
     six
 
 # Copy files
-COPY files/runner /home/glot/
+COPY ./runner /home/glot/
 
 USER glot
 WORKDIR /home/glot/
-CMD ["/home/glot/runner"]
-ENTRYPOINT "/home/glot/runner"
