@@ -1,5 +1,4 @@
 FROM python:latest
-MAINTAINER Petter Rasmussen "petter.rasmussen@gmail.com"
 
 # Add user
 RUN groupadd glot
